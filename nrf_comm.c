@@ -24,10 +24,7 @@
 #define TIMER_60_SEC_PERIOD 6000
 
 #include "onewire.h"
-//#include "ds18x20.h"
-
-#define DS18X20_READ              0xBE
-#define DS18X20_WRITE             0x4E
+#include "ds18x20.h"
 
 #define SWITCHED_PIN 9
 #define SENSOR_0_CALIB_ADDR (uint8_t *)1
